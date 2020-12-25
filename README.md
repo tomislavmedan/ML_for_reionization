@@ -13,3 +13,8 @@ The input and reionization data is binary float32 format. Simply read in 512^3 f
 The data is reshaped into 4096 cubes of array shape (32, 32, 32) to be used in each network.
 
 Networks are labeled by their type and the number of convolutional blocks within them.
+
+# HypHy Implementation
+-Ran an adapted version of Ben Horowitz' HyPhy code to run on Cori GPU with the tensorflow-v1.15.0-gpu kernel
+
+
